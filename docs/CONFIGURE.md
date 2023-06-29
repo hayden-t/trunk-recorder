@@ -383,7 +383,7 @@ This file provides info on the different talkgroups in a trunking system. A lot 
 
 You may add an additional column that adds a priority for each talkgroup. The priority field specifies the number of recorders the system must have available to record a new call for the talkgroup. For example, a priority of 1, the highest means as long as at least a single recorder is available, the system will record the new call. If the priority is 2, the system would at least 2 free recorders to record the new call, and so on. If there is no priority set for a talkgroup entry, a prioity of 1 is assumed.
 
-Talkgroups assigned a priority of -1 will never be recorded, regardless of the number of available recorders.
+Talkgroups assigned a priority of -1 will never be recorded, regardless of the number of available recorders (added in v4.4.1)
 
 Trunk Recorder really only uses the priority information and the decimal talkgroup ID. The Website uses the same file though to help display information about each talkgroup.
 
